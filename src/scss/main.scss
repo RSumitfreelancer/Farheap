@@ -1,0 +1,18 @@
+@import "normalize.css"; // normalize the browser to override defaults
+@import "grid12.scss"; // simple bootstrap grid system
+@import "mixins.scss";
+@import "helpers.scss"; // shorthand helper css
+
+// more specific css used throught the webapp
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  background: #f8f8f8;
+  color: black;
+}
+
+.main-component {
+  background: #ebebeb;
+}
